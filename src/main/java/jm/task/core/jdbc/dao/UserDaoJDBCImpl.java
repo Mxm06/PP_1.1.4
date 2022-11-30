@@ -8,7 +8,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
-    private long id = 1;
     private final String INSERT_NEW = "INSERT INTO users (name,lastname,age) VALUES(?,?,?)";
     private final String DELETE_ID = "DELETE FROM Users WHERE id = ?";
     private final String GET_ALL = "SELECT * FROM Users";
