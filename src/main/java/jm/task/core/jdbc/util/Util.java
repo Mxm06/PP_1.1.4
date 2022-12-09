@@ -23,10 +23,10 @@ public class Util {
 
     static {
         try {
-            property.put(Environment.URL, "jdbc:mysql://localhost:3306/firstdb");
+            property.put(Environment.URL, URL);
             property.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
-            property.put(Environment.USER, "root");
-            property.put(Environment.PASS, "Ardashov06");
+            property.put(Environment.USER, USER);
+            property.put(Environment.PASS, PASSWORD);
             property.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");
             property.put(Environment.SHOW_SQL, "true");
             property.put(Environment.FORMAT_SQL, "true");
